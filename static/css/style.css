@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.mt-50{
+	margin-top: 50px;
+}
+
+#canvas{
+    border: 2px solid black;
+}
+
+.col-12,.col-md-10{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#predict-form div select{
+    border: 2px solid #B3C8CF;
+}
