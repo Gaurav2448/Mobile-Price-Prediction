@@ -6,7 +6,7 @@ import numpy as np
 
 app=Flask(__name__)
 cors=CORS(app)
-model=pickle.load(open("BaggingRegressorModel.pkl",'rb'))
+model=pickle.load(open("BaggingRegModel.pkl",'rb'))
 mobile=pd.read_csv("Cleaned Mobile Price.csv")
 
 @app.route('/',methods=['GET','POST'])
